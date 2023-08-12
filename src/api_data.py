@@ -1,6 +1,6 @@
 class Url:
-    url = 'https://www.booking.com/'
-    url_track = 'https://www.booking.com/c360/v1/track'
+    main_url = 'https://www.booking.com/'
+    track_url = 'https://www.booking.com/c360/v1/track'
 
 class Headers:
     headers = {
