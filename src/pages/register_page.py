@@ -1,6 +1,6 @@
 import allure
-from page_object.pages.base_page import BasePage
-from page_object import locators, data
+from src.pages.base_page import BasePage
+from src import locators, data
 
 
 class Register(BasePage):

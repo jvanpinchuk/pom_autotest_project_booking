@@ -1,12 +1,11 @@
 from selenium.webdriver.common.by import By
-from page_object.data import generate_weekend
+from src.data import generate_weekend
 
 
 #  ======================         Main Page / no sing in         =======================================
 logo = (By.CSS_SELECTOR, "path[fill='#fff'][xpath='1']")
-main_popup = (By.CSS_SELECTOR, ".dabce2e809")
-close_main_popup = (By.XPATH, "//button[@aria-label='Dismiss sign-in info.']"
-                                     "//span[@class='b6dc9a9e69 e25355d3ee']//*[name()='svg']")
+main_popup = (By.CSS_SELECTOR, ".dd5dccd82f")
+close_main_popup = (By.CSS_SELECTOR, "button[aria-label='Dismiss sign in information.']")
 
 
 #  currency

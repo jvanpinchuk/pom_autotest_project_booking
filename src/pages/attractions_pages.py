@@ -1,8 +1,8 @@
 import allure
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from page_object.pages.base_page import BasePage
-from page_object import locators
+from src.pages.base_page import BasePage
+from src import locators
 
 
 class AttractionsPage(BasePage):

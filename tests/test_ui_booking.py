@@ -1,13 +1,13 @@
 import time
 import pytest
 import allure
-from page_object import locators
-from page_object.pages.singin_page import SingIn
-from page_object.pages.register_page import Register
-from page_object.pages.stays_page import SearchStay
-from page_object.pages.main_page import MainPage
-from page_object.pages.car_rentals_page import CarRentalsPage
-from page_object.pages.attractions_pages import AttractionsPage
+from src import locators
+from src.pages.singin_page import SingIn
+from src.pages.register_page import Register
+from src.pages.stays_page import SearchStay
+from src.pages.main_page import MainPage
+from src.pages.car_rentals_page import CarRentalsPage
+from src.pages.attractions_pages import AttractionsPage
 
 
 @pytest.mark.presentation

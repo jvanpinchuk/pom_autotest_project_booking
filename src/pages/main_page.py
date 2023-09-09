@@ -1,7 +1,7 @@
 import allure
 from selenium.common import NoSuchElementException
-from page_object.pages.base_page import BasePage
-from page_object import locators
+from src.pages.base_page import BasePage
+from src import locators
 
 
 class MainPage(BasePage):

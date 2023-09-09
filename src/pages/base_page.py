@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-from page_object import locators
+from src import locators
 
 
 # 12
@@ -26,6 +26,7 @@ class BasePage:
         WebDriverWait(self.driver, 20).until(
             EC.visibility_of_element_located(locators.close_main_popup)
         ).click()
+
 
     def wait_main_page(self):
         WebDriverWait(self.driver, 10).until(
