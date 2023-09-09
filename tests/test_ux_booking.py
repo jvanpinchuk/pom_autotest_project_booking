@@ -59,7 +59,7 @@ def test_change_currency(driver):
     currency.open_main_page()
     currency.close_main_popup()
     currency.change_currency()
-    driver.execute_script("window.scrollBy(0, 1400);")
+    driver.execute_script("window.scrollBy(0, 1800);")
     assert currency.is_element_present(locators.eur_currency_sign), "Currency is not changed. Try again."
 
 
